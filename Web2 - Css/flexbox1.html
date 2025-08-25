@@ -1,0 +1,49 @@
+<html>
+  <body>
+    <div class="container row">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+    </div>
+    <div class="container column">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+    </div>
+    <style>
+      .container {
+        display: flex;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        flex-wrap: no-wrap;
+        height: 300px;
+        border: 10px solid red;
+        margin: 10px;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .one {
+        border: 10px solid blue;
+        /*flex-basis: 30px;*/
+        /*flex-grow: 0;*/
+        /*flex-shrink: 0;*/
+      }
+      .two {
+        border: 10px solid green;
+        /*flex-basis: 60px;*/
+        /*flex-grow: 1;*/
+        /*flex-shrink: 0;*/
+      }
+      .three {
+        border: 10px solid pink;
+        /*flex-basis: 150px;*/
+        /*flex-grow: 1;*/
+        /*flex-shrink: 1;*/
+      }
+    </style>
+  </body>
+</html>
