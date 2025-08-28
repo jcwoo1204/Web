@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#hero-section {
+  position: relative;
+  background-image: url(images/sunset-2557709_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+#hero-section h2 {
+  font-size: 3em;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+#about {
+  text-align: center;
+  padding: 80px 0;
+  color: gray;
+}
+
+#about h2 {
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#about h3 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.description-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#about .description-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+#portfolio {
+  position: relative;
+  background-image: url(images/man-5886719_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#portfolio h2 {
+  font-size: 2.5em;
+  margin: 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.description-container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.description-container3 h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.description-container3 div {
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+}
+
+.work-gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.work-item {
+  width: 100%;
+  height: 150px;
+  background-color: #ddd;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+#contact {
+  position: relative;
+  background-image: url(images/shooting-star-6545134_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.description-container4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.description-container4 h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+.description-container4 div {
+  font-style: italic;
+  text-align: center;
+  margin: 5px;
+}
